@@ -26,8 +26,8 @@ SOFTWARE.
 
 import sys
 
-from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
+from PySide2.QtCore import *
+from PySide2.QtWidgets import *
 
 from waitingspinnerwidget import QtWaitingSpinner
 
@@ -184,4 +184,4 @@ class Demo(QWidget):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     main = Demo()
-    sys.exit(app.exec())
+    sys.exit(app.exec_())

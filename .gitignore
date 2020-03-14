@@ -1,3 +1,5 @@
+.idea/
+__pycache__/
 # C++ objects and libs
 
 *.slo

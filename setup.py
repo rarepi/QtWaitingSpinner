@@ -30,9 +30,9 @@ setup(
     name='QtWaitingSpinner',
     version='1.0',
     packages=[''],
-    url='https://github.com/z3ntu/QtWaitingSpinner',
+    url='https://github.com/rarepi/QtWaitingSpinner',
     license='MIT',
-    author='Luca Weiss',
-    author_email='WEI16416@spengergasse.at',
-    description='A waiting spinner for PyQt5', requires=['PyQt5']
+    author='RaRePi',
+    author_email='',
+    description='A waiting spinner for PySide2', requires=['PySide2']
 )
